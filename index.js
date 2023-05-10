@@ -57,7 +57,7 @@ const animals = [
 
 try {
     var prefix = core.getInput('prefix')
-    var suffix = core.getInput('prefix')
+    var suffix = core.getInput('suffix')
     const separator = core.getInput('separator')
 
     const numberDictionary = NumberDictionary.generate({ min: 1, max: 99 });
