@@ -1,5 +1,8 @@
 name: 'Unique Name Generator'
 description: 'Create a unique name'
+branding:
+  icon: 'align-center'
+  color: 'green'
 inputs:
   prefix:
     description: 'A fixed prefix to use at the head of the name'
