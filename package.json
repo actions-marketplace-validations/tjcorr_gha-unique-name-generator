@@ -1,0 +1,28 @@
+{
+  "name": "gha-unique-name-generator",
+  "version": "1.0.0",
+  "description": "A simple GitHub Action to generate a unique string",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "T.J. Corrigan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjcorr/gha-unique-name-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tjcorr/gha-unique-name-generator/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tjcorr/gha-unique-name-generator#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "unique-names-generator": "^4.7.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  }
+}
