@@ -1,5 +1,5 @@
-const core = require('@actions/core')
-const { uniqueNamesGenerator, NumberDictionary } = require('unique-names-generator')
+import * as core from '@actions/core'
+import { uniqueNamesGenerator, NumberDictionary } from 'unique-names-generator'
 
 // 11 colors
 const colors = [
