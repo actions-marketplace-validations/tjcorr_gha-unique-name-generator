@@ -2,9 +2,9 @@
   "name": "gha-unique-name-generator",
   "version": "1.0.0",
   "description": "A simple GitHub Action to generate a unique string",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "build": "ncc build index.js",
+    "build": "ncc build index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,11 +18,14 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/tjcorr/gha-unique-name-generator#readme",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "dependencies": {
-    "@actions/core": "^1.10.0",
+    "@actions/core": "^3.0.1",
     "unique-names-generator": "^4.7.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.36.1"
+    "@vercel/ncc": "^0.44.1"
   }
 }
